@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lite DnD Extension</title>
+		<script src='roll.js'></script>
+
+		<style type="text/css">
+		body {
+			width:225px;
+			height:60px;
+			font-family: Arial;
+		}
+		input {
+			width:150px;
+		}
+		button{
+			width:40px;
+		}
+		</style>
+
+	</head>
+
+	<body>
+		<p>Roll a D20:</p>
+		<form>
+			<h1 id="rollout">20</h1>
+			<button id="enter">Roll</button>
+		</form>
+	</body>
+</html>
