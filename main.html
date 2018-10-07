@@ -3,34 +3,18 @@
 	<head>
 		<title>Lite DnD Extension</title>
 		<script src='DnD.js'></script>
-
-		<style type="text/css">
-		body {
-			width:300px;
-			height:100px;
-			font-family: Arial;
-		}
-		input {
-			width:150px;
-		}
-		button{
-			width:40px;
-		}
-		</style>
-
+		<link rel="stylesheet" href="main.css">
 	</head>
 
 	<body>
 		<h2>Roll a Dice:</h2>
 		<div style="text-align:center">
 			<form>
-				<input type="text" id="roll_in" name="dice_size">
+				<input type="text" id="roll_in" name="dice_size" style="text-align:center;" maxlength="4">
 				<button type="button" id="rollButton">Roll</button>
 			</form>
 		</div>
 		<br>
-		<div id="roll_out" style="text-align:center;border-width: 10px;border-color: black">
-
-		</div>
+		<div id="roll_out"></div>
 	</body>
 </html>
