@@ -7,14 +7,26 @@
 	</head>
 
 	<body>
-		<h2>Roll a Dice:</h2>
-		<div style="text-align:center">
-			<form>
-				<input type="text" id="roll_in" name="dice_size" style="text-align:center;" maxlength="4">
-				<button type="button" id="rollButton">Roll</button>
-			</form>
+		<div id="tab">
+			<button class="tablink" id="DiceTab">Roll Dice</button>
+			<button class="tablink" id="CharacterTab">Character Sheet</button>
 		</div>
 		<br>
-		<div id="roll_out"></div>
+
+		<div id="dice" class='tab'>
+			<h2>Roll a Dice:</h2>
+			<div style="text-align:center">
+				<form>
+					<input type="text" id="roll_in" name="dice_size" style="text-align:center;" maxlength="4">
+					<button type="button" id="rollButton">Roll</button>
+				</form>
+			</div>
+			<br>
+			<div id="roll_out"> </div>
+		</div>
+
+		<div id="character" class='tab' style="display: none;">
+			Character Tab
+		</div>
 	</body>
 </html>

@@ -1,11 +1,11 @@
 body {
-	width:300px;
-	height:100px;
+	width:350px;
+	height:150px;
 	font-family: Arial;
 }
 
 input {
-	width:150px;
+	width:50px;
 }
 
 button{
@@ -13,16 +13,39 @@ button{
 }
 
 #roll_out{
+	text-align: 	center;
+	font-size: 		16px;
+	display: 		inline-block;
+	border-radius: 	25px;
+	width: 			40px;
+	height: 		20px;
+	position: 		absolute;
+  	left: 			40%;
+	padding-top: 	5px;
+	border-width: 	2px;
+	border-color: 	#000;
+	border-style: 	solid;
+}
+
+.tab{
 	text-align: center;
-	font-size: 16px;
-	display: inline-block;
-	border-radius: 25px;
-	width: 40px;
-	height: 20px;
-	position: absolute;
-  	left: 40%;
-	padding-top: 5px;
-	border-width: 2px;
-	border-color: #000;
-	border-style: solid;
+	display: block;
+}
+
+.tablink{
+	font-family: 	"Lato", sans-serif;
+	font-size: 		12px;
+	outline: 		none;
+	color:			white;
+	background: 	#111;
+	border-width:	1px;
+	border-color:	#222;
+	border-radius: 	1px;
+	height:			25px;
+	width: 			50%;
+	float: 			left;
+}	
+
+.tablink:hover{ 
+	background: 	#cccccc;
 }
