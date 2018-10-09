@@ -12,6 +12,20 @@ button{
 	width:40px;
 }
 
+#skills-table{
+	width:				50%;
+	font-size: 			16px;
+	text-align: 		center;
+	border-collapse:	collapse;
+}
+
+td,tr{
+	text-align: 	center;
+	border-width: 	1px;
+	border-style: 	solid;
+	padding: 		1px;
+}
+
 #roll_out{
 	text-align: 	center;
 	font-size: 		16px;
@@ -19,8 +33,7 @@ button{
 	border-radius: 	25px;
 	width: 			40px;
 	height: 		20px;
-	position: 		absolute;
-  	left: 			40%;
+	position: 		center;
 	padding-top: 	5px;
 	border-width: 	2px;
 	border-color: 	#000;
